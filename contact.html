@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="cart.css">
+    <script src="products.js"></script>
+    <script src="cart.js"></script>
+    <title>App</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="cart.html">
+            <img src="images/pizza.png" alt="" width="30" height="34" class="d-inline-block align-text-top">
+            Yummy pizza
+          </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+    
+            <li class="nav-item">
+              <a class="nav-link" href="cart.html">Cart</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<div class="container mt-3 ">
+    <div class="rounded d-sm-flex justify-content-center">
+        <div class=" col-md-4-contact col-sm-6 shadow-lg p-5 bg-light">
+            <div class="text-center">
+                <h3 class="text-primary">CONTACT US</h3>
+            </div>
+            
+                <!-- Bootstrap 5 starter form -->
+
+                <form name="contact" id="contactForm" method="POST" data-netlify="true">
+
+                  <!-- Name input -->
+                  <div class="mb-3">
+                    <label class="form-label" for="name">Name</label>
+                    <input name="name" class="form-control" id="name" type="text" placeholder="Name" required />
+
+                  </div>
+
+                  <!-- Email address input -->
+                  <div class="mb-3">
+                    <label class="form-label" for="emailAddress">Email Address</label>
+                    <input name="email" class="form-control" id="emailAddress" type="email" placeholder="Email Address" required />
+                  </div>
+                  <!-- Message input -->
+                  <div class="mb-3">
+                    <label class="form-label" for="message">Message</label>
+                    <textarea name="message" class="form-control" id="message" text="text" placeholder="Message" required></textarea>
+                  </div>
+                  <!-- Form submit button -->
+                  <button class="btn btn-success btn-lg" type="submit">Submit</button>
+
+                </form>
+              </div>
+        <div class="col-md-4 d-sm-none d-md-block">
+            <img src="images/form.jpg" class="d-block w-100 img-cover" alt="form.jpg">
+        </div>
+    </div>
+</div>
+
+<div class="mt-5 p-4 bg-dark text-white text-center">
+  
+  <!-- footer-->
+  <section class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-heading">
+          
+      </div>
+      
+      <!-- Section: Links  -->
+      <section class="copy">
+        <div class="container text-center text-md-start mt-5">
+          
+          <!-- Grid row -->
+          <div class="row mt-3">
+            
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+              YUMMY PIZZA
+              </h6>
+              <img src="images/pizza.png" alt="" width="30" height="34" class="d-inline-block align-text-top">
+
+              <p>Enjoy the best!</p>
+            </div>
+            
+            <!-- Grid column -->       							
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Opening hours
+              </h6>
+              <p>
+              <strong>Mon</strong>
+          9am - 10pm</p>
+        
+        <p>
+          <strong>Tue</strong>
+          9am - 10pm</p>
+        <p>
+          <strong>Wed</strong>
+          9am - 10pm</p>
+        <p>
+          <strong>Thu</strong>
+          9am - 10pm</p>
+        <p>
+          <strong>Fri</strong>
+          9am - 10pm
+        </p>
+        <p>
+          <strong>Sat</strong>
+          9am - 10pm</p>
+              
+            </div>
+            
+            <!-- Grid column -->       							
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Useful links
+              </h6>
+              <p>
+                <a href="cart.html" class="text">Order now</a>
+              </p>
+              <p>
+                <a href="contact.html" class="text">Contact</a>
+              </p>
+             
+            </div>
+            
+            <!-- Grid column -->       							
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Contact
+              </h6>
+              <p>
+                <i class="fas fa-home me-3"></i>
+                George street, Edinburgh</p>
+              <p>
+                <i class="fas fa-envelope me-3">
+                </i>
+                Yummypizza@gmail.com</p>
+              <p>
+                <i class="fas fa-phone me-3"></i>
+                +44 025 2245 7794
+              </p>
+            </div>
+            
+            <!-- Grid column -->
+          </div>
+          
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->   				
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(96, 94, 94, 0.3);">
+        <p>© 2022 copyright. All Rights Reserved.<br>
+        </p>
+      </div>
+    </div>
+ 
+      <!-- Copyright -->
+    </div>
+  </section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
